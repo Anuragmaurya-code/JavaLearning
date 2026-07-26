@@ -18,7 +18,7 @@ public class FunctionalInterfaceMain {
         Consumer<String> c = (i) -> System.out.println("My name is "+i);
 //        c.accept("Anurag");
 
-        Supplier <Integer> s =()->  (int)(Math.random()*100);
+        Supplier <Integer> s =()->  (int)(Math.random()*1000);
         System.out.println(s.get());
     }
 
